@@ -1,6 +1,6 @@
 # PersonalWebsite
 a portfolio of my experience, projects, and skills. <br>
-<a href="cyang.sites.tjhsst.edu">live site</a>
+<a href="https://cyang.sites.tjhsst.edu" target="_blank">live site</a>
 
 ## Tools Used
 <ul>
