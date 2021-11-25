@@ -1,0 +1,55 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+  text-align:center;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.brand-logo {
+    font-family: 'Ruthie', cursive;
+}
+.nav-link.active {
+    background-color:#26a69a;
+}
+.mobile-link.active {
+    background-color:lightgray;
+}
+.navbar-fixed {
+    height:32px;
+}
+.parallax-container {
+    height:450px;
+}
+.col-icon {
+    font-size:1.25rem;
+    vertical-align:middle;
+}
+.desc-p {
+    margin-bottom:0px;
+}
+.project-p {
+    margin:1em 0 !important;
+}
+.carousel {
+    height:300px;
+}
+.v-align {
+    vertical-align:middle;
+}
+.right {
+    text-align: right;
+}
+.foot-bio {
+    padding-right:10px;
+}
+.footer-link:hover {
+    opacity:85%;
+}

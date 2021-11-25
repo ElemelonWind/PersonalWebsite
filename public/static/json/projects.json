@@ -1,0 +1,46 @@
+{
+    "v": {
+        "name": "Railroad",
+        "date": "October 2021",
+        "tools": "Python, TKinter",
+        "description": "A project exploring algorithms such as BFS, Bi-BFS, A*, Bi-A*, and Tri-A* to calculate the shortest train route through U.S. cities.",
+        "image": "img/Railroad.png",
+        "github": "https://github.com/ElemelonWind/Railroad"
+    },
+    
+    "w": {
+        "name": "Schelp",
+        "date": "March 2021",
+        "tools": "Javascript, HTML, CSS, React, Heroku",
+        "description": "Built with my teammates during a hackathon, Schelp is a platform where students are able to find the best teachers who teach a certain discipline they want to improve on and teachers are able to advertise for themselves.",
+        "image": "img/Schelp.png",
+        "github": "https://github.com/linndaqun/hackdefy21"
+    },
+    
+    "x": {
+        "name": "Jared.exe",
+        "date": "February 2021",
+        "tools": "Javascript, Discord.js, NodeJS",
+        "description": "A discord counting bot which implements order of operations, among other functions. Features include a daily leaderboard, channel settings, and help function.",
+        "image": "img/Jared.png",
+        "github": "https://github.com/ElemelonWind/Jared.exe"
+    },
+    
+    "y": {
+        "name": "Tag",
+        "date": "October 2020",
+        "tools": "Java, Bukkit",
+        "description": "A plugin for spigot Minecraft that starts a 5 minute game of tag with everyone in the current lobby.",
+        "image": "img/Tag.jpeg",
+        "github": "https://github.com/ElemelonWind/Tag"
+    },
+    
+    "z": {
+        "name": "Compass",
+        "date": "September 2020",
+        "tools": "Java, Bukkit",
+        "description": "A plugin for spigot Minecraft that allows you to track your spawnpoint (including your bed) or other players.",
+        "image": "img/Compass.jpeg",
+        "github": "https://github.com/ElemelonWind/Compass"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "tools": [
+        "java",
+        "python",
+        "javascript",
+        "nodejs",
+        "html",
+        "css",
+        "bootstrap",
+        "react",
+        "flask",
+        "handlebars",
+        "materialize",
+        "vscode",
+        "eclipse",
+        "webflow",
+        "wordpress",
+        "git",
+        "windows",
+        "sql"
+        ]
+}

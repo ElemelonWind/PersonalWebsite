@@ -1,0 +1,323 @@
+<!-- https://materializecss.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- main info -->
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <title>Cindy's Portfolio</title>
+    
+      <!-- CSS  -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      
+      <!-- fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Ruthie&display=swap" rel="stylesheet">
+      
+      <!-- icon -->
+      <link rel="icon" href="https://img.icons8.com/cotton/96/000000/source-code--v2.png">
+      
+      <!-- contact form js -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_C6b38Jlb37aQNakZdRm3p');
+        })();
+      </script>
+      <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+                document.getElementById('contact-box').innerHTML = `<p class="light flow-text center">Your response has been submitted. Thank you!</p>`
+            });
+        }
+      </script>
+      
+    </head>
+    <body>
+        <!-- navbar -->
+        <div class="navbar-fixed">
+          <nav class="teal accent-4" role="navigation">
+            <div class="nav-wrapper container"><a id="logo-container" href="#index-banner" class="brand-logo">CY</a>
+              <ul class="right hide-on-med-and-down">
+                <li><a class="nav-link" href="#index-banner">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+              </ul>
+              <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </div>
+          </nav>
+        </div>
+        <ul id="nav-mobile" class="sidenav">
+            <li><a class="sidenav-close mobile-link" href="#index-banner">Home</a></li>
+            <li><a class="sidenav-close mobile-link" href="#about">About</a></li>
+            <li><a class="sidenav-close mobile-link" href="#experience">Experience</a></li>
+            <li><a class="sidenav-close mobile-link" href="#projects">Projects</a></li>
+            <li><a class="sidenav-close mobile-link" href="#skills">Skills</a></li>
+            <li><a class="sidenav-close mobile-link" href="#contact">Contact</a></li>
+        </ul>
+        
+      <!-- home -->
+      <div class="section no-pad-bot scrollspy" id="index-banner">
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/parallax.png"></div>
+          <br><br>
+          <div class="container">
+              <br>
+              <h1 class="header center pink-text darken-3">Hello, World!</h1>
+              <div class="row center">
+                <h5 class="header col s12 light">I'm Cindy, a STEAM nerd based in Virginia, USA.</h5>
+              </div>
+          </div>
+          <br>
+          <div class="row center">
+            <a href="#about" id="" class="btn-large waves-effect waves-light pink darken-2">About Me</a>
+          </div>
+          <br>
+        </div>
+      </div>
+    
+      <!-- about -->
+      <br>
+      <h3 class="header center teal-text accent-3">I am a(n)...</h3>
+      <div class="section scrollspy" id="about">
+        <div class="container">
+          <!--   Icon Section   -->
+          <div class="row">
+            <div class="col s12 xl4">
+              <div class="icon-block">
+                <h2 class="center teal-text accent-3"><i class="material-icons">code</i></h2>
+                <h5 class="center">Developer</h5>
+    
+                <p class="light flow-text">{{dma.developer}}</p>
+              </div>
+            </div>
+    
+            <div class="col s12 xl4">
+              <div class="icon-block">
+                <h2 class="center teal-text accent-3"><i class="material-icons">group</i></h2>
+                <h5 class="center">Mentor</h5>
+    
+                <p class="light flow-text">{{dma.mentor}}</p>
+              </div>
+            </div>
+    
+            <div class="col s12 xl4">
+              <div class="icon-block">
+                <h2 class="center teal-text accent-3"><i class="material-icons">queue_music</i></h2>
+                <h5 class="center">Artist</h5>
+    
+                <p class="light flow-text">{{dma.artist}}</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+      <br>
+      <div class="divider"></div>
+      
+      <!-- experience -->
+      <br>
+      <h3 class="header center teal-text accent-3">Experience</h3>
+      <div class="section scrollspy" id="experience">
+        <div class="container">
+            <ul class="collapsible popout">
+                {{#each experience}}
+                <li>
+                  <div class="collapsible-header">{{this.title}}</div>
+                  <div class="collapsible-body">
+                      <div><i class="material-icons col-icon">date_range</i> {{this.date}}</div>
+                      <div><i class="material-icons col-icon">place</i> {{this.location}}</div>
+                      <p class="desc-p">{{this.description}}</p>
+                      <ul>
+                          {{#each this.highlights}}
+                          <li><i class="material-icons col-icon">keyboard_arrow_right</i> {{this}}</li>
+                          {{/each}}
+                      </ul>
+                  </div>
+                </li>
+                {{/each}}
+              </ul>
+        </div>
+        <br><br>
+      </div>
+      <br>
+      <div class="divider"></div>
+      
+      <!-- projects -->
+      <br>
+      <h3 class="header center teal-text accent-3">Projects</h3>
+      <div class="section scrollspy" id="projects">
+        <div class="container">
+          <div class="row">
+            {{#each projects}}  
+            <div class="col s12 m6 xl4">
+              <div class="card sticky-action medium">
+                <!--size of image should be 1280 x 720-->
+                <div class="card-image">
+                  <img class="activator" src={{this.image}}>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">{{this.name}}<i class="material-icons right">more_vert</i></span>
+                  <p class="project-p">{{this.tools}}</p>
+                </div>
+                <div class="card-action">
+                  <a class="pink-text darken-3" href="{{this.github}}" target="_blank">Github</a>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">{{this.name}}<i class="material-icons right">close</i></span>
+                  <p>{{this.date}}</p>
+                  <p>{{this.tools}}</p>
+                  <p>{{this.description}}</p>
+                </div>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+        </div>
+        <br><br>
+      </div>
+      
+      <br>
+      <div class="divider"></div>
+      <br>
+      
+      <!-- skills -->
+      <h3 class="header center teal-text accent-3">Skills</h3>
+      <div class="section scrollspy" id="skills">
+          <div class="container">
+              <p class="light center flow-text">
+                  These are the tools I'm most familiar with! Of course, if hired, I'm not limited to just these, as I'm always looking to expand my skillset and willing to learn something new.
+              </p>
+              <div class="carousel">
+                {{#each tools.tools}}
+                <!-- images should be transparent -->
+                <a class="carousel-item" href="#{{this}}"><img class="responsive-img" src="img/{{this}}.jpg"></a>
+                {{/each}}
+              </div>
+          </div>
+          <br><br>
+      </div>
+      
+      <br>
+      <div class="divider"></div>
+      
+      <!-- contact -->
+      <br>
+      <h3 class="header center teal-text accent-3">Contact</h3>
+      <div class="section scrollspy" id="contact">
+          <div class="container" id="contact-box">
+              <form class="col s12" id="contact-form">
+                  <div class="container" id="contactForm">
+                      <div class="row">
+                    <div class="input-field col s6">
+                      <input name="first_name" id="first_name" type="text" class="validate">
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                      <input name="last_name" id="last_name" type="text" class="validate">
+                      <label for="last_name">Last Name</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s8">
+                      <input name="email" id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s4">
+                        <select name="who" id="who" type="text" class="validate">
+                          <option value="" disabled selected>Select</option>
+                          <option value="student">Student</option>
+                          <option value="professional">Professional</option>
+                          <option value="business">Business</option>
+                          <option value="other">Other</option>
+                        </select>
+                        <label for="who">I am a...</label>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea name="textarea1" id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Message</label>
+                    </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="col s6">
+                          <label>
+                            <input id="time" name="time" type="checkbox" />
+                            <span>time sensitive</span>
+                          </label>
+                      </div>
+                      <div class="col s6 right">
+                          <button class="btn waves-effect waves-light" type="submit" value="submit">Submit
+                            <i class="material-icons right">send</i>
+                          </button>
+                      </div>
+                  </div>
+                  </div>
+                  
+                </form>
+          </div>
+          <br><br>
+      </div>
+      
+      <!-- footer -->
+      <footer class="page-footer pink darken-3">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Bio</h5>
+              <p class="foot-bio grey-text text-lighten-4">{{footer.bio}}</p>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Career Things</h5>
+              <ul>
+                <li><a class="white-text footer-link" href="{{footer.github}}" target="_blank">GitHub</a></li>
+                <li><a class="white-text footer-link" href="{{footer.linkedin}}" target="_blank">LinkedIn</a></li>
+                <li><a class="white-text footer-link" href="{{footer.resume}}" target="_blank" download>Resume</a></li>
+              </ul>
+            </div>
+            <div class="col l3 s12">
+              <h5 class="white-text">Socials</h5>
+              <ul>
+                <li><a class="white-text footer-link" href="{{footer.instagram}}" target="_blank">Instagram</a></li>
+                <li><a class="white-text footer-link" href="{{footer.spotify}}" target="_blank">Spotify</a></li>
+                <li><a class="white-text footer-link" href="{{footer.facebook}}" target="_blank">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          Made by <span class="pink-text text-darken-1">Cindy Yang</span>
+          <span class="right">Last Updated {{footer.lastupdated}}</span>
+          </div>
+        </div>
+      </footer>
+    
+    
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+      
+    </body>
+</html>

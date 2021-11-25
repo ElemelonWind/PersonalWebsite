@@ -1,0 +1,47 @@
+{
+    "v": {
+        "title": "Inspirit AI",
+        "date": "December 2021",
+        "location": "Remote",
+        "description": "This program, developed and taught exclusively by a team of alumni and graduate students from Stanford, Harvard, and MIT, provides guidance on initiating AI projects, pursuing AI ventures, and preparing for college."
+    }, 
+    
+    "w": {
+        "title": "Director of Technology - COSMOS",
+        "date": "Aug 2021 - Present",
+        "location": "Remote",
+        "highlights": [
+                "Tasked to redesign the organization’s website as it rebranded",
+                "Migrated all content from Wix to Webflow",
+                "Implemented a payment system for ordering products and registering for classes"
+            ]
+    },
+    
+    "x": {
+        "title": "Classes Director, Mentor, Tech Team - Codefy",
+        "date": "Jun 2021 - Present",
+        "location": "Remote",
+        "highlights": [
+                "Providing classes in various computer science subjects for 300+ students",
+                "Organizing and scheduling 15+ classes through Zoom and Google Classroom",
+                "Developed an app to provide weekly competitions for students using React and ExpressJS"
+            ]
+    },
+    
+    "y": {
+        "title": "Web Development Intern - dataVediK",
+        "date": "May - Aug 2021",
+        "location": "Remote",
+        "highlights": [
+                "Updated the company website using WordPress and WebFlow",
+                "Increased user interaction with revamped news, solutions, and careers pages"
+            ]
+    },
+    
+    "z": {
+        "title": "Ampersand Professionals",
+        "date": "May - Aug 2021",
+        "location": "Remote",
+        "description": "A robust career-readiness program that includes internship placements, skill-building mentorship, Birkman Career Assessments, and a professional development curriculum with featured experienced industry speakers."
+    }
+}
