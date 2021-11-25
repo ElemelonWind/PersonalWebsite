@@ -1,4 +1,13 @@
 {
+    "u": {
+        "name": "Portfolio",
+        "date": "November 2021",
+        "tools": "Javascript, Handlebars, Materialize, CSS, EmailJS",
+        "description": "A website made as a compilation of my experience, projects, and skills, hosted using my school's domain. You're looking it right now.",
+        "image": "img/Portfolio.png",
+        "github": "https://github.com/ElemelonWind/PersonalWebsite"
+    },
+    
     "v": {
         "name": "Railroad",
         "date": "October 2021",
