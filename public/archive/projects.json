@@ -1,0 +1,10 @@
+{
+    "z": {
+        "name": "Compass",
+        "date": "September 2020",
+        "tools": "Java, Bukkit",
+        "description": "A plugin for spigot Minecraft that allows you to track your spawnpoint (including your bed) or other players.",
+        "image": "img/Compass.jpeg",
+        "github": "https://github.com/ElemelonWind/Compass"
+    }
+}
