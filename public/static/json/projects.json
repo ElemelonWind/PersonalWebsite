@@ -1,11 +1,20 @@
 {
+    "s": {
+        "name": "Task Tracker",
+        "date": "December 2021",
+        "tools": "React, JSON Server",
+        "description": "An app built with the React framework that tracks tasks, providing a form for adding tasks, buttons for deleting, and a reminder function.",
+        "image": "img/TaskTracker.png",
+        "github": "https://github.com/ElemelonWind/react-task-tracker"
+    },
+    
     "t": {
         "name": "Sudoku",
         "date": "November 2021",
         "tools": "Python",
         "description": "Sudoku solver using CSP forward-tracking algorithms. Can solve most puzzles in 0.1 seconds.",
         "image": "img/Sudoku.png",
-        "github": "https://github.com/ElemelonWind/Sudoku"
+        "github": "https://github.com/ElemelonWind/sudoku"
     },
     
     "u": {
@@ -14,7 +23,7 @@
         "tools": "Javascript, Handlebars, Materialize, CSS, EmailJS",
         "description": "A website made as a compilation of my experience, projects, and skills, hosted using my school's domain. You're looking it right now.",
         "image": "img/Portfolio.png",
-        "github": "https://github.com/ElemelonWind/PersonalWebsite"
+        "github": "https://github.com/ElemelonWind/personal-website"
     },
     
     "v": {
@@ -23,16 +32,7 @@
         "tools": "Python, TKinter",
         "description": "A project exploring algorithms such as BFS, Bi-BFS, A*, Bi-A*, and Tri-A* to calculate the shortest train route through U.S. cities.",
         "image": "img/Railroad.png",
-        "github": "https://github.com/ElemelonWind/Railroad"
-    },
-    
-    "w": {
-        "name": "Schelp",
-        "date": "March 2021",
-        "tools": "Javascript, HTML, CSS, React, Heroku",
-        "description": "Built with my teammates during a hackathon, Schelp is a platform where students are able to find the best teachers who teach a certain discipline they want to improve on and teachers are able to advertise for themselves.",
-        "image": "img/Schelp.png",
-        "github": "https://github.com/linndaqun/hackdefy21"
+        "github": "https://github.com/ElemelonWind/railroad"
     },
     
     "x": {
@@ -50,6 +50,6 @@
         "tools": "Java, Bukkit",
         "description": "A plugin for spigot Minecraft that starts a 5 minute game of tag with everyone in the current lobby.",
         "image": "img/Tag.jpeg",
-        "github": "https://github.com/ElemelonWind/Tag"
+        "github": "https://github.com/ElemelonWind/tag"
     }
 }
