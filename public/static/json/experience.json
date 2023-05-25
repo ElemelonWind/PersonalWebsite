@@ -1,4 +1,40 @@
 {
+    "s": {
+      "title": "Software Engineering Intern - Yext" ,
+      "date": "June 2022 - August 2022",
+      "location": "Arlington, VA",
+      "description": "Yext offers a modern, AI-powered Search Platform that understands natural language so that when people ask questions about a business online they get direct answers – not links.",
+      "highlights": [
+            "Performed QA tasks for a React component library that powers Headless Search integrations, to replace an outdated SDK",
+            "Helped with the rebranding of Yext Answers to Search, deprecating npm packages and adding synonyms in repositories.",
+            "Worked on developing Yext Studio, a development environment designed for developers and admins to work together on their pages"
+          ]
+    },
+    
+    "t": {
+        "title": "Research Intern - ASSIP",
+        "date": "June 2022 - August 2022",
+        "location": "Fairfax, VA",
+        "description": "The nationally known Aspiring Scientists Summer Internship Program provides transformative opportunities for high school and undergraduate students. Selected participants work one-on-one with faculty researchers at George Mason University.",
+        "highlights": [
+                "Mentored under Dr. Mihai Boicu, Assistant Professor of Information Technology at GMU",
+                "Conducted research on the development of ontology through collective intelligence algorithms",
+                "Constructed knowledge graphs using spaCy's NLP models, feeding in text from academic sources in hopes of improving automated course curriculum generation."
+        ]
+    },
+    
+    "u": {
+        "title": "Software Developer - Vytal",
+        "date": "March 2022 - Present",
+        "location": "McLean, VA",
+        "description": "An organization that develops machine learning models to further neuroscience research. We also engineer the devices that can implement said models to advance the field as a whole.",
+        "highlights": [
+                "Developing the mobile and web applications where the deep learning software is integrated",
+                "Built a data collection app using React Native, Expo, and Firebase API that collects videos of users’ eyes",
+                "Contributing to documentation of progress and milestones through research papers published in reputable journals"
+            ]
+    },
+    
     "v": {
         "title": "Inspirit AI",
         "date": "December 2021",
@@ -9,7 +45,12 @@
     "w": {
         "title": "Director of Technology - COSMOS",
         "date": "Aug 2021 - Present",
+<<<<<<< HEAD
         "location": "Remote",
+=======
+        "location": "McLean, VA",
+        "description": "An organization that offers free computer engineering courses, where students learn to combine coding and electrical engineering to create hands-on projects. Students code on Arduino software and build circuits with microcontrollers and other electronic hardware.",
+>>>>>>> master
         "highlights": [
                 "Tasked to redesign the organization’s website as it rebranded",
                 "Migrated all content from Wix to Webflow",
@@ -20,7 +61,12 @@
     "x": {
         "title": "Classes Director, Mentor, Tech Team - Codefy",
         "date": "Jun 2021 - Present",
+<<<<<<< HEAD
         "location": "Remote",
+=======
+        "location": "McLean, VA",
+        "description": "An organization that provides free computer science education for students. We teach a wide variety of subjects, including Java, Python, Machine Learning, Scratch, and Web Development.",
+>>>>>>> master
         "highlights": [
                 "Providing classes in various computer science subjects for 300+ students",
                 "Organizing and scheduling 15+ classes through Zoom and Google Classroom",
@@ -31,7 +77,12 @@
     "y": {
         "title": "Web Development Intern - dataVediK",
         "date": "May - Aug 2021",
+<<<<<<< HEAD
         "location": "Remote",
+=======
+        "location": "Houston, TX",
+        "description": "A Houston-based startup focused on sustainable living. It specializes in Big Data, Data Analytics, Machine Learning and end-to-end Data Ecosystems for Energy and healthcare industries.",
+>>>>>>> master
         "highlights": [
                 "Updated the company website using WordPress and WebFlow",
                 "Increased user interaction with revamped news, solutions, and careers pages"

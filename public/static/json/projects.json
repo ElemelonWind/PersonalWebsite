@@ -1,26 +1,54 @@
 {
-    "s": {
-        "name": "Task Tracker",
-        "date": "December 2021",
-        "tools": "React, JSON Server",
-        "description": "An app built with the React framework that tracks tasks, providing a form for adding tasks, buttons for deleting, and a reminder function.",
-        "image": "img/TaskTracker.png",
-        "github": "https://github.com/ElemelonWind/react-task-tracker"
+    "o": {
+        "name": "Tunesphere",
+        "date": "March 2023",
+        "tools": "ReactJS, Spotify API, JavaScript, Python, Jupyter Notebook, Tensorflow, HTML, CSS",
+        "description": "Song recommendation system that utilizes sentiment analysis to introduce new genres to listeners. Coded with two friends - won Best Design at HackTJ 10.0.",
+        "image": "img/Tunesphere.png",
+        "github": "https://github.com/ElemelonWind/tunesphere"
     },
     
-    "t": {
-        "name": "Sudoku",
-        "date": "November 2021",
-        "tools": "Python",
-        "description": "Sudoku solver using CSP forward-tracking algorithms. Can solve most puzzles in 0.1 seconds.",
-        "image": "img/Sudoku.png",
-        "github": "https://github.com/ElemelonWind/sudoku"
+    "p": {
+      "name": "Knowledge Graph Generator",
+      "date": "August 2022",
+      "tools": "Python, Jupyter Notebook, spaCy, Pandas, Matplotlib",
+      "description": "Project done as part of research conducted under GMU's ASSIP program on automated ontological knowledge formation.",
+      "image": "img/KnowledgeGraph.png",
+      "github": "https://github.com/ElemelonWind/knowledge-graph"
+    },
+    
+    "q": {
+        "name": "Othello Bot",
+        "date": "January 2022",
+        "tools": "Python, TKinter",
+        "description": "An AI bot that uses minimax algorithms to play othello. Uses techniques such as alphabeta pruning and heuristics.",
+        "image": "img/Othello.png",
+        "github": "https://github.com/ElemelonWind/othello-bot"
+    },
+    
+    "r": {
+        "name": "Lyric Finder",
+        "date": "January 2022",
+        "tools": "ReactJS, JavaScript, HTML, Musixmatch API, Bootstrap",
+        "description": "A react app that finds the lyrics of songs using the Musixmatch API. Includes a top ten tracks leaderboard and ratings of songs.",
+        "image": "img/LyricFinder.png",
+        "github": "https://github.com/ElemelonWind/react-lyric-finder"
+    },
+    
+    "s": {
+        "name": "Sentiment Classifier",
+        "date": "December 2021",
+        "tools": "Python, Jupyter Notebook, Pandas, Numpy, NLTK, SKLearn",
+        "description": "A natural language processing model to find the sentiment (good or bad) of restaurant reviews.",
+        "image": "img/NLP.png",
+        "github": "https://github.com/ElemelonWind/sentiment-classifier"
     },
     
     "u": {
         "name": "Portfolio",
         "date": "November 2021",
         "tools": "Javascript, Handlebars, Materialize, CSS, EmailJS",
+<<<<<<< HEAD
         "description": "A website made as a compilation of my experience, projects, and skills, hosted using my school's domain. You're looking it right now.",
         "image": "img/Portfolio.png",
         "github": "https://github.com/ElemelonWind/personal-website"
@@ -51,5 +79,10 @@
         "description": "A plugin for spigot Minecraft that starts a 5 minute game of tag with everyone in the current lobby.",
         "image": "img/Tag.jpeg",
         "github": "https://github.com/ElemelonWind/tag"
+=======
+        "description": "A website made as a compilation of my experience, projects, and skills, hosted using my school's domain. You're looking at it right now.",
+        "image": "img/Portfolio.png",
+        "github": "https://github.com/ElemelonWind/personal-website"
+>>>>>>> master
     }
 }

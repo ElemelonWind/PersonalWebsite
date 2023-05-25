@@ -86,7 +86,7 @@
           </div>
           <br>
           <div class="row center">
-            <a href="#about" id="" class="btn-large waves-effect waves-light pink darken-2">About Me</a>
+            <a href="https://github.com/ElemelonWind" id="" class="btn-large waves-effect waves-light pink darken-2" target="blank">Visit GitHub</a>
           </div>
           <br>
         </div>
@@ -145,6 +145,7 @@
                       <div><i class="material-icons col-icon">date_range</i> {{this.date}}</div>
                       <div><i class="material-icons col-icon">place</i> {{this.location}}</div>
                       <p class="desc-p">{{this.description}}</p>
+                      <br>
                       <ul>
                           {{#each this.highlights}}
                           <li><i class="material-icons col-icon">keyboard_arrow_right</i> {{this}}</li>
@@ -165,10 +166,14 @@
       <h3 class="header center teal-text accent-3">Projects</h3>
       <div class="section scrollspy" id="projects">
         <div class="container">
+            <p class="light center flow-text">
+                  I've only highlighted my favorite and/or more recent projects; to look at more, visit my <a class="teal-text accent-3 footer-link" href="https://github.com/ElemelonWind" target="_blank">GitHub</a>!
+              </p>
+            <br>
           <div class="row">
             {{#each projects}}  
             <div class="col s12 m6 xl4">
-              <div class="card sticky-action medium">
+              <div class="card sticky-action large">
                 <!--size of image should be 1280 x 720-->
                 <div class="card-image">
                   <img class="activator" src={{this.image}}>
@@ -300,7 +305,7 @@
               <ul>
                 <li><a class="white-text footer-link" href="{{footer.instagram}}" target="_blank">Instagram</a></li>
                 <li><a class="white-text footer-link" href="{{footer.spotify}}" target="_blank">Spotify</a></li>
-                <li><a class="white-text footer-link" href="{{footer.facebook}}" target="_blank">Facebook</a></li>
+                <li><a class="white-text footer-link" href="{{footer.discord}}" target="_blank">Discord</a></li>
               </ul>
             </div>
           </div>
