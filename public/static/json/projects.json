@@ -1,0 +1,55 @@
+{
+    "o": {
+        "name": "Tunesphere",
+        "date": "March 2023",
+        "tools": "ReactJS, Spotify API, JavaScript, Python, Jupyter Notebook, Tensorflow, HTML, CSS",
+        "description": "Song recommendation system that utilizes sentiment analysis to introduce new genres to listeners. Coded with two friends - won Best Design at HackTJ 10.0.",
+        "image": "img/Tunesphere.png",
+        "github": "https://github.com/ElemelonWind/tunesphere"
+    },
+    
+    "p": {
+      "name": "Knowledge Graph Generator",
+      "date": "August 2022",
+      "tools": "Python, Jupyter Notebook, spaCy, Pandas, Matplotlib",
+      "description": "Project done as part of research conducted under GMU's ASSIP program on automated ontological knowledge formation.",
+      "image": "img/KnowledgeGraph.png",
+      "github": "https://github.com/ElemelonWind/knowledge-graph"
+    },
+    
+    "q": {
+        "name": "Othello Bot",
+        "date": "January 2022",
+        "tools": "Python, TKinter",
+        "description": "An AI bot that uses minimax algorithms to play othello. Uses techniques such as alphabeta pruning and heuristics.",
+        "image": "img/Othello.png",
+        "github": "https://github.com/ElemelonWind/othello-bot"
+    },
+    
+    "r": {
+        "name": "Lyric Finder",
+        "date": "January 2022",
+        "tools": "ReactJS, JavaScript, HTML, Musixmatch API, Bootstrap",
+        "description": "A react app that finds the lyrics of songs using the Musixmatch API. Includes a top ten tracks leaderboard and ratings of songs.",
+        "image": "img/LyricFinder.png",
+        "github": "https://github.com/ElemelonWind/react-lyric-finder"
+    },
+    
+    "s": {
+        "name": "Sentiment Classifier",
+        "date": "December 2021",
+        "tools": "Python, Jupyter Notebook, Pandas, Numpy, NLTK, SKLearn",
+        "description": "A natural language processing model to find the sentiment (good or bad) of restaurant reviews.",
+        "image": "img/NLP.png",
+        "github": "https://github.com/ElemelonWind/sentiment-classifier"
+    },
+    
+    "u": {
+        "name": "Portfolio",
+        "date": "November 2021",
+        "tools": "Javascript, Handlebars, Materialize, CSS, EmailJS",
+        "description": "A website made as a compilation of my experience, projects, and skills, hosted using my school's domain. You're looking at it right now.",
+        "image": "img/Portfolio.png",
+        "github": "https://github.com/ElemelonWind/personal-website"
+    }
+}

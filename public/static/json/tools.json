@@ -1,0 +1,27 @@
+{
+    "tools": [
+        "java",
+        "python",
+        "javascript",
+        "typescript",
+        "kotlin",
+        "cpp",
+        "nodejs",
+        "html",
+        "css",
+        "react",
+        "flask",
+        "expo",
+        "electron",
+        "unity",
+        "firebase",
+        "mongodb",
+        "sql",
+        "android",
+        "handlebars",
+        "vscode",
+        "webflow",
+        "git",
+        "windows"
+        ]
+}
